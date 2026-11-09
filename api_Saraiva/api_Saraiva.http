@@ -1,0 +1,6 @@
+@api_Saraiva_HostAddress = http://localhost:5198
+
+GET {{api_Saraiva_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
