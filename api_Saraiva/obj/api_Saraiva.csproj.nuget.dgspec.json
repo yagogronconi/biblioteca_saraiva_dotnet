@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xxyag\\Documents\\biblioteca_saraiva_dotnet\\api_Saraiva\\api_Saraiva.csproj": {}
+    "/Users/zanattacasa/projeto/dot/biblioteca_saraiva_dotnet/api_Saraiva/api_Saraiva.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xxyag\\Documents\\biblioteca_saraiva_dotnet\\api_Saraiva\\api_Saraiva.csproj": {
+    "/Users/zanattacasa/projeto/dot/biblioteca_saraiva_dotnet/api_Saraiva/api_Saraiva.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xxyag\\Documents\\biblioteca_saraiva_dotnet\\api_Saraiva\\api_Saraiva.csproj",
+        "projectUniqueName": "/Users/zanattacasa/projeto/dot/biblioteca_saraiva_dotnet/api_Saraiva/api_Saraiva.csproj",
         "projectName": "api_Saraiva",
-        "projectPath": "C:\\Users\\xxyag\\Documents\\biblioteca_saraiva_dotnet\\api_Saraiva\\api_Saraiva.csproj",
-        "packagesPath": "C:\\Users\\xxyag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xxyag\\Documents\\biblioteca_saraiva_dotnet\\api_Saraiva\\obj\\",
+        "projectPath": "/Users/zanattacasa/projeto/dot/biblioteca_saraiva_dotnet/api_Saraiva/api_Saraiva.csproj",
+        "packagesPath": "/Users/zanattacasa/.nuget/packages/",
+        "outputPath": "/Users/zanattacasa/projeto/dot/biblioteca_saraiva_dotnet/api_Saraiva/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\xxyag\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/zanattacasa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "11.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -89,6 +82,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[10.0.15, 10.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[10.0.15, 10.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[10.0.15, 10.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -97,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/11.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
