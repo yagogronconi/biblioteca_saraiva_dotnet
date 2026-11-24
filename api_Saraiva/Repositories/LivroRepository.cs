@@ -38,10 +38,9 @@ public class LivroRepository : ILivroRepository
             .FirstOrDefaultAsync(l => l.Id == id);
     }
 
-    public async Task<bool> IsbnExisteAsync(string isbn, int? ignoreLivroId = null)
+    public async Task<bool> BuscarPorIsbnAsync(string isbn)
     {
-        return await _context.Livros.AnyAsync(l => l.Isbn == isbn &&
-        (!ignoreLivroId.HasValue || l.Id != ignoreLivroId.Value));
+        return await _context.Livros.AnyAsync(l => l.Isbn == isbn);
     }
 
     public async Task<bool> PossuiEmprestimosAsync(int livroId)

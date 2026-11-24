@@ -6,7 +6,7 @@ public interface ILivroRepository
 {
     Task<List<Livro>> ListarTodosAsync(int? autorId = null);
     Task<Livro?> BuscarPorIdAsync(int id);
-    Task<bool> IsbnExisteAsync(string isbn, int? ignoreLivroId = null);
+    Task<bool> BuscarPorIsbnAsync(string isbn);
     Task<bool> PossuiEmprestimosAsync(int livroId);
     Task<Livro> AdicionarAsync(Livro livro);
     Task<Livro> AtualizarAsync(Livro livro);
