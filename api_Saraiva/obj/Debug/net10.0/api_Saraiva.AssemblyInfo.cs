@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api_Saraiva")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ac756c6092e7e9c201f704d5e3c62e04eca4a57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d4ea3911369f9094f21bab9226ad9286752cc51")]
 [assembly: System.Reflection.AssemblyProductAttribute("api_Saraiva")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api_Saraiva")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
